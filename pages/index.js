@@ -64,7 +64,7 @@ export default function Home() {
                   scale={1.0} // scale of the dot pattern
                 />
                 <Glitch
-                  delay={[1.5, 10.5]} // min and max glitch delay
+                  delay={[1.5, 5.5]} // min and max glitch delay
                   duration={[0.6, 1.0]} // min and max glitch duration
                   strength={[0.3, 1.0]} // min and max glitch strength
                   active // turn on/off the effect (switches between "mode" prop and GlitchMode.DISABLED)
